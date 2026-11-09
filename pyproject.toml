@@ -1,0 +1,30 @@
+[build-system]
+requires = ["hatchling==1.29.0"]
+build-backend = "hatchling.build"
+
+[project]
+name = "faunabench"
+version = "0.2.0"
+description = "A research prototype for incidental animal harm in tool-using agents"
+requires-python = ">=3.12"
+dependencies = ["inspect-ai==0.3.288", "mcp==2.3.0"]
+
+[project.optional-dependencies]
+dev = ["pytest==9.2.0"]
+analysis = ["matplotlib>=3.9,<4"]
+providers = [
+    "anthropic>=2.0.0",
+    "openai>=3.4.0,<4",
+    "google-genai>=3.0.0",
+]
+
+[project.scripts]
+faunabench-demo = "faunabench.demo:main"
+faunabench-mcp = "faunabench.mcp_server:main"
+faunabench-smoke = "faunabench.inspect_task:main"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/faunabench"]

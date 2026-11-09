@@ -1,0 +1,11 @@
+FaunaBench licensing
+
+Code (Python, build/CI configuration and tests): MIT, see LICENSES/MIT.txt.
+Scenario prose, prompt/tool-description strings, documentation and original
+research figures: Creative Commons Attribution 4.0 International (CC BY 4.0),
+see LICENSES/CC-BY-4.0.txt and https://creativecommons.org/licenses/by/4.0/.
+
+Copyright (c) 2026 Omar Nembhard.
+Attribution: Omar Nembhard, FaunaBench, version and repository commit used.
+Third-party sources retain their own licenses and are cited, not relicensed.
+No HarvestBench code or data is included.

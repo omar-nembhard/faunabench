@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use FaunaBench, cite this repository and the exact commit."
+title: "FaunaBench: unprompted discovery and informed routing in tool-using agents"
+authors:
+  - family-names: Nembhard
+    given-names: Omar
+version: 0.2.0
+type: software
+license:
+  - MIT
+  - CC-BY-4.0
+repository-code: "https://github.com/omar-nembhard/faunabench"
+keywords:
+  - AI evaluation
+  - tool-using agents
+  - animal welfare
