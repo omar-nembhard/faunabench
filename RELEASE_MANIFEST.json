@@ -102,12 +102,12 @@
       "changed_for_canary_release": false
     },
     {
-      "bytes": 12109,
+      "bytes": 12894,
       "changed_from_prior_publication": true,
       "changed_from_source": true,
       "path": "README.md",
       "previous_publication_sha256": "0f26165a01da1d61db8ed83337d23a084a6eb2321212f2c4862df358d3924abf",
-      "sha256": "197c86b55570941fd1a2fa1c1ddd368d88feb0bad1b5475234ae273f2d6d3594",
+      "sha256": "e98181affef724ee787c2b03a09fa0fa8a65040e7cfe2f1fe5d2206b69ad9b4f",
       "source_sha256": "4e30eedecb3311112cc69f3e1d1037c6b5647f79bc38887f0de1d771e0eae954",
       "pre_canary_sha256": "16e44518a28b770b78b2c7217e47f04e59e6404ac0b8ac5fa41d27e18727425e",
       "changed_for_canary_release": true
@@ -168,12 +168,12 @@
       "changed_for_canary_release": false
     },
     {
-      "bytes": 4514,
-      "changed_from_prior_publication": false,
-      "changed_from_source": false,
+      "bytes": 4684,
+      "changed_from_prior_publication": true,
+      "changed_from_source": true,
       "path": "docs/START_HERE_PLAIN_ENGLISH.md",
       "previous_publication_sha256": "36b2e6733427f83bb5fc2ac6f4d7bf76c3dd3b2ad0d0edd45b598323969584ce",
-      "sha256": "36b2e6733427f83bb5fc2ac6f4d7bf76c3dd3b2ad0d0edd45b598323969584ce",
+      "sha256": "0c537dddef348ba0a77519825c8c2ab537a4259f11c1fb1c6f085467f2099c44",
       "source_sha256": "36b2e6733427f83bb5fc2ac6f4d7bf76c3dd3b2ad0d0edd45b598323969584ce",
       "pre_canary_sha256": "36b2e6733427f83bb5fc2ac6f4d7bf76c3dd3b2ad0d0edd45b598323969584ce",
       "changed_for_canary_release": false
@@ -867,6 +867,25 @@
   "prior_publication_manifest_sha256": "529d6ae49139e261d6e23f272a5a723cb30b8f366350ae072b76b4062c242701",
   "status": "local_combined_exploratory_release_not_published",
   "model_facing_text_and_scientific_values_unchanged": true,
-  "publication_metadata_changes": "Shared canary in source comments and format-valid data headers; final Website URL. File bytes change; original observations and rendered prompts do not.",
-  "pre_canary_manifest_sha256": "131c99e77fdb488e66a58fd556c945dc1341443a0710c4e57a0ebbea9d8d9523"
+  "publication_metadata_changes": "Shared canary in source comments and format-valid data headers; final Website URL. File bytes change; original observations and rendered prompts do not. README first-screen exploratory results summary and plain-English guide result links; publication wording only, with no changes to model-facing text, data, charts or scientific values.",
+  "pre_canary_manifest_sha256": "131c99e77fdb488e66a58fd556c945dc1341443a0710c4e57a0ebbea9d8d9523",
+  "publication_metadata_update": {
+    "date": "2026-11-09",
+    "change_type": "publication-metadata-only",
+    "base_commit": "a03f753f4aff1f3164e76595127297d041521b9d",
+    "previous_manifest_sha256": "af09c30947cd1ec7a10ae72146be3a79ab45864eaf51956ad442d1a91e30c5f9",
+    "changed_files": [
+      {
+        "path": "README.md",
+        "before_sha256": "197c86b55570941fd1a2fa1c1ddd368d88feb0bad1b5475234ae273f2d6d3594",
+        "after_sha256": "e98181affef724ee787c2b03a09fa0fa8a65040e7cfe2f1fe5d2206b69ad9b4f"
+      },
+      {
+        "path": "docs/START_HERE_PLAIN_ENGLISH.md",
+        "before_sha256": "36b2e6733427f83bb5fc2ac6f4d7bf76c3dd3b2ad0d0edd45b598323969584ce",
+        "after_sha256": "0c537dddef348ba0a77519825c8c2ab537a4259f11c1fb1c6f085467f2099c44"
+      }
+    ],
+    "model_facing_text_and_scientific_values_unchanged": true
+  }
 }
